@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | News homepage</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="module.js" defer></script>
+</head>
+<body>
+
+  <div class="menu-overlay hidden"></div>
+  <div class="wrapper">
+    <header class="header">
+      <div class="logo">
+        <img src="./assets/images/logo.svg" alt="">
+      </div>
+      <nav class="nav">
+        <button class="btn-mobile"><img src="./assets/images/icon-menu.svg" alt=""></button>
+        <div class="menu hidden">
+          <button class="btn-close"><img src="./assets/images/icon-menu-close.svg" alt=""></button>
+          <ul>
+            <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">New</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Popular</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Trending</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Categories</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main class="main grid">
+      <div class="section hero">
+        <div class="hero-image">
+          <picture>
+            <source srcset="./assets/images/image-web-3-desktop.jpg" media="(min-width: 600px)">
+            <img src="./assets/images/image-web-3-mobile.jpg" alt="Web 3 Mobile Image">
+          </picture>
+        </div>
+      </div>
+      <div class="section new-section">
+        <h2 class="new-title">New</h2>
+        <div class="new-post">
+          <h3 class="new-sub-title"><a href="" class="post-link">Hydrogen VS Electric Cars</a></h3>
+          <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
+        </div>
+        <div class="new-post">
+          <h3 class="new-sub-title"><a href="" class="post-link">The Downsides of AI Artistry</a></h3>
+          <p>What are the possible adverse effects of on-demand AI image generation?</p>
+        </div>
+        <div class="new-post">
+          <h3 class="new-sub-title"><a href="" class="post-link">Is VC Funding Drying Up?</a></h3>
+          <p>Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+        </div>
+      </div>
+
+      <div class="section title">
+        The Bright Future of Web 3.0?
+      </div>
+      <div class="section main-copy-text">
+        <p>
+          We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people.
+          But is it really fulfilling its promise?
+        </p>
+        <button class="btn-read-more">Read more</button>
+      </div>
+      
+      <div class="section top-post">
+        <div class="top-post-img"><img src="./assets/images/image-retro-pcs.jpg" alt=""></div>
+        <div class="top-post-article">
+          <h2 class="top-title">01</h2>
+          <h3 class="top-sub-title"><a href="" class="nav-link">Reviving Retro PCs</a></h3>
+          <p>What happens when old PCs are given modern upgrades?</p>
+        </div>
+      </div>
+      <div class="section top-post">
+        <div class="top-post-img"><img src="./assets/images/image-top-laptops.jpg" alt=""></div>
+        <div class="top-post-article">
+          <h2 class="top-title">02</h2>
+          <h3 class="top-sub-title"><a href="" class="nav-link">Top 10 Laptops of 2022</a></h3>
+          <p>Our best picks for various needs and budgets.</p>
+        </div>
+      </div>
+      <section class="section top-post">
+        <div class="top-post-img"><img src="./assets/images/image-gaming-growth.jpg" alt=""></div>
+        <div class="top-post-article">
+          <h2 class="top-title">03</h2>
+          <h3 class="top-sub-title"><a href="" class="nav-link">The Growth of Gaming</a></h3>
+          <p>How the pandemic has sparked fresh opportunities.</p>
+        </div>
+      </section>
+    </main>
+    
+    <footer class="footer">
+      <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+        Coded by <a href="#">Your Name Here</a>.
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
